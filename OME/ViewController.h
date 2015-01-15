@@ -15,6 +15,7 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imageView2;
 @property (strong, nonatomic) IBOutlet UIImageView *imageView3;
 @property (strong, nonatomic) IBOutlet UIImageView *imageView4;
+@property (strong, nonatomic) IBOutlet UIImageView *imageGrid;
 -(UIImage *)cropImageToSquare:(UIImage *)image scaledToSize:(CGSize)newSize;
 - (IBAction)takePhoto:(id)sender;
 - (IBAction)loadFromGallery:(id)sender;

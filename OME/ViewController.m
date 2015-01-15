@@ -18,9 +18,12 @@
 AVCaptureSession *session;
 AVCaptureStillImageOutput *stillImageOutput;
 CGRect frame;
+NSArray *folderArray;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.imageGrid setHidden:YES];
+    [self retrieveFromParse];
     static NSString *CellIdentifier = @"Cell";
 //    [self.tableView registerClass:[PPImageScrollingTableViewCell class] forCellReuseIdentifier:CellIdentifier];
 //    self.images = @[
@@ -209,6 +212,7 @@ CGRect frame;
 }
 
 - (IBAction)btnGridShowup:(id)sender {
+    [self.imageGrid setHidden:![self.imageGrid isHidden]];
 }
 -(void)retrieveFromParse {
     PFQuery *retriveImage = [PFQuery queryWithClassName:@"Frame"];
@@ -216,7 +220,7 @@ CGRect frame;
         NSLog(@"Retrieved data");
         if(!error){
             NSLog(@"%@", objects);
-            
+            folderArray = objects;
             //[allObjects addObjectsFromArray:objects];
            // PFFile *file = [object objectForKey:@"Frame_image"];
 //            if(file != NULL){

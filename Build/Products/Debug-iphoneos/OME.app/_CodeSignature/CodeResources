@@ -17,7 +17,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RLYdu6UtkJvr8Xxedpo3zwJqTGQ=
+			SPQVq076BLIztSG9ZRizUDP4/L0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -26,11 +26,27 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tfo82sLuiOWZgwC2qswOTH18irY=
+			RPqOWSggNxKY6nUWIjaH3+xKzOs=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Cameraturning_icon.png</key>
+		<data>
+		Txtldj1hf15k9sB9e7NGMEOI3yw=
+		</data>
+		<key>Flash_icon.png</key>
+		<data>
+		HBUTTzNrfx4GHtrr3TGkQKBCcmE=
+		</data>
+		<key>Grid.png</key>
+		<data>
+		w9oYumpXRppPiZnsjd6wcQGIIUc=
+		</data>
+		<key>Grid_icon.png</key>
+		<data>
+		76Z0feh/Y3xP9Vw1GG7MXu97C/4=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		NPBrZCwFaR5yqnrVnMgakjATnNU=
@@ -42,6 +58,18 @@
 		<key>embedded.mobileprovision</key>
 		<data>
 		JW/DWEVCdXdNqJ80FT/7AcN8Ddo=
+		</data>
+		<key>menu_button.png</key>
+		<data>
+		7dNGeHpz0u+GxJpRrc5ZrTy4Wok=
+		</data>
+		<key>review_button.png</key>
+		<data>
+		Jor6CAspzFfiYY3nE6+S/hjERTk=
+		</data>
+		<key>shoot_button.png</key>
+		<data>
+		PmPiExwyTT5wenSJK2gjF4e7diI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -59,7 +87,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RLYdu6UtkJvr8Xxedpo3zwJqTGQ=
+			SPQVq076BLIztSG9ZRizUDP4/L0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -68,14 +96,42 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tfo82sLuiOWZgwC2qswOTH18irY=
+			RPqOWSggNxKY6nUWIjaH3+xKzOs=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Cameraturning_icon.png</key>
+		<data>
+		Txtldj1hf15k9sB9e7NGMEOI3yw=
+		</data>
+		<key>Flash_icon.png</key>
+		<data>
+		HBUTTzNrfx4GHtrr3TGkQKBCcmE=
+		</data>
+		<key>Grid.png</key>
+		<data>
+		w9oYumpXRppPiZnsjd6wcQGIIUc=
+		</data>
+		<key>Grid_icon.png</key>
+		<data>
+		76Z0feh/Y3xP9Vw1GG7MXu97C/4=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		JW/DWEVCdXdNqJ80FT/7AcN8Ddo=
+		</data>
+		<key>menu_button.png</key>
+		<data>
+		7dNGeHpz0u+GxJpRrc5ZrTy4Wok=
+		</data>
+		<key>review_button.png</key>
+		<data>
+		Jor6CAspzFfiYY3nE6+S/hjERTk=
+		</data>
+		<key>shoot_button.png</key>
+		<data>
+		PmPiExwyTT5wenSJK2gjF4e7diI=
 		</data>
 	</dict>
 	<key>rules</key>
