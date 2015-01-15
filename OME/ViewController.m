@@ -22,20 +22,20 @@ CGRect frame;
 - (void)viewDidLoad {
     [super viewDidLoad];
     static NSString *CellIdentifier = @"Cell";
-    [self.tableView registerClass:[PPImageScrollingTableViewCell class] forCellReuseIdentifier:CellIdentifier];
-    self.images = @[
-                        @{
-                            @"images":
-                                @[
-                                    @{ @"name":@"sample_1", @"title":@"A-0"},
-                                    @{ @"name":@"sample_2", @"title":@"A-1"},
-                                    @{ @"name":@"sample_3", @"title":@"A-2"},
-                                    @{ @"name":@"sample_4", @"title":@"A-3"},
-                                    @{ @"name":@"sample_5", @"title":@"A-4"},
-                                    @{ @"name":@"sample_6", @"title":@"A-5"}
-                                ]
-                        }
-                    ];
+//    [self.tableView registerClass:[PPImageScrollingTableViewCell class] forCellReuseIdentifier:CellIdentifier];
+//    self.images = @[
+//                        @{
+//                            @"images":
+//                                @[
+//                                    @{ @"name":@"sample_1", @"title":@"A-0"},
+//                                    @{ @"name":@"sample_2", @"title":@"A-1"},
+//                                    @{ @"name":@"sample_3", @"title":@"A-2"},
+//                                    @{ @"name":@"sample_4", @"title":@"A-3"},
+//                                    @{ @"name":@"sample_5", @"title":@"A-4"},
+//                                    @{ @"name":@"sample_6", @"title":@"A-5"}
+//                                ]
+//                        }
+//                    ];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
